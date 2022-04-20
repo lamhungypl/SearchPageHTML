@@ -1,0 +1,57 @@
+.container {
+  max-width: 768px;
+  margin: 0 auto;
+
+  .hero-wrapper {
+    margin-bottom: 1rem;
+    color: #fff;
+    background-color: #73698a;
+
+    .hero {
+      padding: 40px 16px;
+      text-align: center;
+
+      &__title {
+        margin-bottom: 1.5rem;
+        font-weight: 600;
+        font-size: 1.75rem;
+      }
+
+      &__subtitle {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  .search {
+    &__label {
+      font-size: 1.25rem;
+    }
+
+    &__input {
+      width: 100%;
+      max-width: 100%;
+      height: 2.5em;
+      margin-bottom: 1.5rem;
+      padding: 0.5em 0.75em;
+      font-size: 1rem;
+      line-height: 1.5;
+      background-color: #fff;
+      border: 1px solid #dbdbdb;
+      border-radius: 4px;
+      box-shadow: inset 0 0.0625em 0.125em rgb(10 10 10 / 5%);
+    }
+  }
+
+  .result {
+    .box {
+      margin-bottom: 1.5rem;
+      padding: 1.25rem;
+      background-color: #fff;
+      border-color: transparent;
+      border-radius: 4px;
+      box-shadow: 0 1px 2px -2px rgb(0 0 0 / 10%),
+        0 3px 6px 0 rgb(0 0 0 / 8%), 0 5px 12px 4px rgb(0 0 0 / 6%);
+    }
+  }
+}
